@@ -1,0 +1,37 @@
+/* Breakout — page styling.
+   A dark page with the game stage centered on it. */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #101018;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #dfe6ff;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* The stage: light playfield with a blue frame. */
+canvas {
+  background: #e8ecf4;
+  border: 3px solid #0095dd;
+  display: block;
+}
+
+.help {
+  color: #8b93a7;
+  font-size: 0.85rem;
+}
